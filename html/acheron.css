@@ -1,0 +1,181 @@
+/* Reset margins and ensure full height */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Ensure body takes full height */
+    display: flex;
+    flex-direction: column;
+}
+
+.nasibakar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(14, 14, 96, 0.54);
+    background-image: url(https://i.pinimg.com/originals/71/92/b3/7192b36dadb8d4dd4eb71a4227cc6a95.gif);
+    background-position: 50%;
+}
+
+.n {
+    display: flex;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.text {
+    text-decoration: none;
+    background-color: rgba(51, 30, 142, 0.293);
+    color: white;
+    font-size: 20px;
+    padding: 2px 16px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+.mother {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+.mother img{
+
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+        border: 5px solid #9b72ec62;
+
+}
+.boom p{
+   
+    background-color: rgba(175, 128, 206, 0.315);
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.content img {
+    margin-right: 20px; /* Space between image and text */
+    border: 5px solid #9b72ec62;
+}
+
+
+
+.text-content p {
+    text-align: justify;
+    background-color: rgba(175, 128, 206, 0.315);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.boxa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(14, 14, 96, 0.54);
+    background-image: url(https://i.pinimg.com/originals/2e/71/f5/2e71f5dc05797aefc00ab7ebfe42d253.gif);
+    background-position: 20%;
+}
+footer {
+    text-align: center;
+    background-color: rgba(69, 20, 115, 0.8);
+    background-image: url(https://i.pinimg.com/originals/99/8e/05/998e055aba57c24138220937cc5166ab.gif);
+    background-position: 90%;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto; 
+}
+.idle{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(204, 143, 204);
+    background-image: url(https://64.media.tumblr.com/0cd1547b9eb29b7785a0c39458d869a0/a00ecd7092a85dc0-20/s540x810/7b046064a9916049a24094602479d5c63c57d0f1.gifv);
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px #9b72ec62;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.combat{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(204, 143, 204);
+    background-image: url(https://dotgg.gg/wp-content/uploads/sites/16/2024/03/ezgif.com-crop-1-2.gif);
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px #9b72ec62;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.ult{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(204, 143, 204);
+    background-image: url(https://upload-os-bbs.hoyolab.com/upload/2024/01/27/6648135/8379c50ce4e2d6426f2c016cd78178a4_5266332184018173090.gif);
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px #9b72ec62;
+    text-align: center;
+    margin: 20px auto;
+
+}
+.Trailer p {
+    text-align: justify;
+    background-color: rgba(175, 128, 206, 0.315);
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.contact-container img {
+    border: 5px solid #9b72ec62;
+    border-radius: 10px;
+}
+
+.contact-info {
+    font-family: Verdana;
+    color: rgb(69, 20, 115);
+    max-width: 500px;
+    text-align: justify;
+    background-color: rgba(206, 161, 236, 0.315);
+    padding: 10px;
+    border-radius: 5px;
+}
